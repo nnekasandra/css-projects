@@ -1,0 +1,16 @@
+ body{
+   background: purple;
+   text-align: center;
+   font-family: monospace;
+   font-size: 30px;
+ }
+ table{
+   height: 100%;
+   margin: 50px auto;
+ }
+ tr:nth-child(even){
+   background-color: lightgreen;
+ }
+ tr:nth-child(odd){
+   background-color: crimson;
+ }
